@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Play, Pause, Square, RotateCcw, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -109,7 +108,7 @@ const Index = () => {
   const isActive = isRunning && !isPaused;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center p-4 pt-20">
       <div className="w-full max-w-md space-y-6">
         {/* Header */}
         <div className="text-center">
